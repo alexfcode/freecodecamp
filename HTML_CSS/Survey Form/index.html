@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>freeCodeCamp Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Survey Form for freeCodeCamp project</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Enter your Name<input id="name" type="text" required placeholder="Enter your Name"></input></label>
+      <label for="email" id="email-label">Enter your Email<input id="email" type="email" required placeholder="Enter your Email"></input></label>
+      <label id="number-label">Enter the Number<input id="number" type="number" min=1 max=100 required placeholder="Enter the Number"></input></label>
+      <label for="dropdown" id="eat-label">What do you like to eat?
+        <select id="dropdown">
+          <option value="">(choose one least)</option>
+          <option value="1">Pizza</option>
+         <option value="2">Ice Cream</option>
+      </select>
+      <label for="gender">What is your gender?</label>
+      <label for="gender" id="gender-label"><input id="gender" type="radio" class="inline" name="gender" value="Male" checked>Male</label>
+      <label for="gender" id="gender-label"><input id="gender" type="radio" class="inline" name="gender" value="Female">Female</label>
+      <label for="likes">What do you like?</label>
+      <label for="like"><input type="checkbox" name="like" class="inline" value="Swim"></input>Swim</label>
+      <label for="like"><input type="checkbox" name="like" class="inline" value="Drink"></input>Drink</label>
+      <label for="like"><input type="checkbox" name="like" class="inline" value="Sing a songs"></input>Sing a songs</label>
+      <label for="wishes">Your wishes
+        <textarea id="wishes" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea></label>
+         <input id="submit" type="submit">
+    </form>
+  </body>
+</html>

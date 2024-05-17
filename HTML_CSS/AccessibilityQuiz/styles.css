@@ -1,49 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="freeCodeCamp Accessibility Quiz practice project" />
-    <title>Accessibility Quiz</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <img id="logo" alt="freeCodeCamp" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg">
-      <h1>HTML/CSS Quiz</h1>
-      <nav>
-        <ul>
-          <li><a href="#student-info">INFO</a></li>
-          <li><a href="#html-questions">HTML</a></li>
-          <li><a href="#css-questions">CSS</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
-        <section role="region" aria-labelledby="student-info">
-          <h2 id="student-info">Student Info</h2>
-          <div class="info">
-            <label for="student-name">Name:</label>
-            <input type="text" name="student-name" id="student-name" />
-          </div>
-          <div class="info">
-            <label for="student-email">Email:</label>
-            <input type="email" name="student-email" id="student-email" />
-          </div>
-          <div class="info">
-            <label for="birth-date">D.O.B.<span class="sr-only">(Date of Birth)</span></label>
-            <input type="date" name="birth-date" id="birth-date" />
-          </div>
-        </section>
-        <section role="region" aria-labelledby="html-questions">
-          <h2 id="html-questions">HTML</h2>
-
-        </section>
-        <section role="region" aria-labelledby="css-questions">
-          <h2 id="css-questions">CSS</h2>
-        </section>
-      </form>
-    </main>
-  </body>
-</html>
+.canvas {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+    overflow: hidden;
+    filter: blur(2px);
+  }
+  
+  .frame {
+    border: 50px solid black;
+    width: 500px;
+    padding: 50px;
+    margin: 20px auto;
+  }
+  
+  .one {
+    width: 425px;
+    height: 150px;
+    background-color: #efb762;
+    margin: 20px auto;
+    box-shadow: 0 0 3px 3px #efb762;
+    border-radius: 9px;
+    transform: rotate(-0.6deg);
+  }
+  
+  .two {
+    width: 475px;
+    height: 200px;
+    background-color: #8f0401;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 3px 3px #8f0401;
+    border-radius: 8px 10px;
+    transform: rotate(0.4deg);
+  }
+  
+  .one, .two {
+    filter: blur(1px);
+  }
+  
+  .three {
+    width: 91%;
+    height: 28%;
+    background-color: #b20403;
+    margin: auto;
+    filter: blur(2px);
+    box-shadow: 0 0 5px 5px #b20403;
+    border-radius: 30px 25px 60px 12px;
+  
+  }

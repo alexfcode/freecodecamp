@@ -1,0 +1,17 @@
+.h1_style, .p_style {
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #main {
+    background-color: lightgrey;
+  
+  }
+
+  #img-div {
+    display: block;
+    margin: auto;
+    /* text-align: center; */
+  
+  }

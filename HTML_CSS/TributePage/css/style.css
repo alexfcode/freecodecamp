@@ -1,17 +1,55 @@
-.h1_style, .p_style {
-    margin: 10px;
+.h1_style, .p_style, .h2_style {
+    display: block;
+    margin: 20px;
     text-align: center;
     width: 100%;
   }
+  
+  #tribute-info {
+    display: block;
+    text-align: justify;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 1000px;
+  
+  }
+  
   
   #main {
     background-color: lightgrey;
   
   }
-
-  #img-div {
+  
+  
+  #image {
     display: block;
+    width: 80%;
+    max-width: 100%;
     margin: auto;
-    /* text-align: center; */
+  }
+  
+  #img-caption {
+    text-align: center;
+    
+  }
+  
+  
+  ul{
+    display: block;
+    text-align: justify;
+    margin: 10px auto;
+    width: 80%
   
   }
+  
+  #tribute-link {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+  
+  }
+  
+  
+  
